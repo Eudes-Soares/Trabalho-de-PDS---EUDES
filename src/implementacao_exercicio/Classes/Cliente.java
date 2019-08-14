@@ -10,8 +10,9 @@ package implementacao_exercicio.Classes;
  *
  * @author Eudes Soares Rumão
  * @author João Victor da Silva Dias
- * @version 0.2
+ * @version 0.5
  * @since 07 de agosto de 2019
+ * alteração(ultima: 17:18 14-08-2019)
  */
 public class Cliente extends Pessoa{
  
@@ -32,6 +33,7 @@ public class Cliente extends Pessoa{
             MiProjets[numProjeto]= null;
         }else{
             System.out.println("esse projeto nao existe mais!!!");
+            System.out.println("tente novamente depois, pq agora vc nao vai!!!");
         }
         
     }
@@ -49,6 +51,7 @@ public class Cliente extends Pessoa{
     
     /** método usado retornar todos os projetos que o cliente possui 
     * @author Eudes Soares Rumão
+    * @author Joâo Victor da Silva Dias
     * @return Projeto[] - projetos do cliente
     */
     public Projeto[] retornarProjetos(){
@@ -60,16 +63,16 @@ public class Cliente extends Pessoa{
     
     /** método usado retornar instanciar um objeto do tipo Cliente 
     * @author Eudes Soares Rumão
-    * @param projetos Projeto[] - projetos do cliente
+    * @param projeto Projeto[] - projetos do cliente
     * @param nome String - nome do cliente
     * @param idade int - idade do cliente
     * @param endereco String - endereço do cliente
     * @param email String - email do cliente
     * @param senha String - senha do cliente
     */
-    public Cliente(Projeto[] projetos, String nome, int idade, String endereco, String email, String senha) {
+    public Cliente(Projeto[] projeto, String nome, int idade, String endereco, String email, String senha) {
         super(nome, idade, endereco, email, senha);
-        this.projetos = projetos;
+        this.projetos = projeto;
     }
     
     

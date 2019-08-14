@@ -9,9 +9,10 @@ package implementacao_exercicio.Classes;
  *
  * @author Eudes Soares Rumão
  * @author João Victor da Silva Dias
- * @version 2.3
+ * @version 2.5
  * @since 07 de agosto de 2019
- * Clase usada para a criação de um administrador do sistema
+ * Classe usada para a criação de um administrador do sistema
+ * nova atualização: 14-08-2019
  */
 public class Admin extends Pessoa {
     
@@ -34,20 +35,21 @@ public class Admin extends Pessoa {
      * @author Eudes Soares Rumão
      */
      public void naosei(int r, int s){
-         System.out.println(r-s);
+         System.out.println("a subtração é: "+(r-s));
      }
      
      
      /**
       * @author Eudes Soares Rumão
+      * @author João Victor da Silva Dias
       * método usado para saber se o tamanho de uma palavra é maior 09 letras ou menor que 11 letras
       * @param g String - palavra passada como parâmetro
       */
      public void testando(String g){
-         if(g.length()>10){
-             System.out.println("a palavra "+g+"contém mais de 09 letras");
+         if(g.length()>=10){
+             System.out.println("a palavra "+g+"contém mais de/ou 10(dez) letras");
          } else{
-             System.out.println("a palavra "+g+"contém menos de 11 letras");
+             System.out.println("a palavra "+g+"contém menos de 10 letras");
          }
      } 
      

@@ -9,7 +9,7 @@ package implementacao_exercicio.Classes;
  *
  * @author Eudes Soares Rumão
  * @author João Victor da Silva Dias
- * @version 0.1
+ * @version 0.3
  * @since 14 de agosto de 2019
  * Classe Pessoa usada poara instânciar um objeto Nadacomnada
  */
@@ -26,8 +26,9 @@ public class Nadacomnada {
      * @author Eudes Soares Rumão
      * imprime nada
     */
-    public static void mostrarnada(){
+    public static void mostrarnadab(){
         System.out.println("");
+        System.out.println("b");
     }
     /**
      * @author Eudes Soares Rumão

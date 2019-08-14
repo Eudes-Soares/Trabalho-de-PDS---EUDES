@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
  *
  * @author Eudes Soares Rumão
  * @author João Victor da Silva Dias
- * @version 0.1
+ * @version 2.445-09
  * @since 07 de agosto de 2019
  * Classe Pessoa usada poara instânciar um objeto Pessoa
  */
@@ -32,6 +32,7 @@ public class Pessoa {
     
     /** método usado para instânciar um objeto Pessoa
     * @author João Victor da Silva Dias
+    * @author Eudes Soares Rumão
     * @param nome String - nome da pessoa
     * @param idade int - idade da pessoa
     * @param endereco String - endereço da pessoa
